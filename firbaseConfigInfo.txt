@@ -1,0 +1,20 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCIUel60oAdIM_7p0HbyHmllSILG6h1_F4",
+    authDomain: "student-record-d4cb0.firebaseapp.com",
+    databaseURL: "https://student-record-d4cb0.firebaseio.com",
+    projectId: "student-record-d4cb0",
+    storageBucket: "student-record-d4cb0.appspot.com",
+    messagingSenderId: "881161341550",
+    appId: "1:881161341550:web:15b1c8f3d263ebe74f347f"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
